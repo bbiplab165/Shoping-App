@@ -1,0 +1,62 @@
+
+.nav{
+    /* width: 82.5%; */
+}
+.body{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 4%;
+    margin-top: 3%;
+    height: 86vh;
+}
+.image{
+    text-align: center;
+    border-right:1px solid  rgb(205, 205, 205) ;
+    margin-right: 3%;
+}
+.desc{
+    /* margin-left: 15%; */
+    /* padding-left: 5%; */
+    width: 95%;
+}
+.desc h3{
+    color: rgb(107, 107, 107);
+}
+.desc h4{
+    color: rgb(107, 107, 107);
+}
+hr{
+    border:none ;
+    border-bottom: 1px solid rgb(205, 205, 205) ;
+}
+.size{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.eachSize h4{
+    color: black;
+    width: 3.5rem;
+    height: fit-content;
+    text-align: center;
+    padding:  35% 0;
+    cursor: pointer;
+    border: 1px solid  rgb(205, 205, 205) ;
+    border-radius: 50%;
+    /* background-color: aqua; */
+}
+.clicked{
+    background-color: rgb(195, 195, 195);
+}
+
+.buyButton{
+    width: 80%;
+    margin-top: 15%;
+}
+.buyButton button{
+    padding: 3% 12%;
+    font-size: 1.2rem;
+    margin-right: 8%;
+}

@@ -1,0 +1,26 @@
+.main{
+    height: 100vh;
+}
+.container{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    /* margin-left: ; */
+    margin-top: 1.5%;
+}
+.container label{
+    width: 100% !important;
+    font-size: 1.2rem;
+}
+.container input{
+    width:98.9%;
+    margin: 1% 0;
+    font-size: 1.1rem;
+    padding: 0.4%;
+}
+.container button{
+    width: 100% !important;
+    font-size: 1.1rem;
+    padding: 0.8%;
+    margin-top: 3%;
+}

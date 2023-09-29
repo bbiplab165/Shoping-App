@@ -1,0 +1,34 @@
+.main{
+    height: 100vh !important;
+    width: 100vw !important;
+    background-color: #F5F5F5 ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div{
+    width: 30%;
+    height: 34%;
+    margin: auto;
+    border: 1px solid ;
+    box-shadow: 8px 10px 15px  rgb(205, 205, 205) ;
+    padding: 2%;
+    background-color: white;
+}
+.input{
+    /* margin-left: 10%; */
+    width: 95.2%;
+    font-size: 1.1rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 2% ;
+}
+.password input{
+    margin-bottom:9%;
+}
+.div button{
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 2%;
+}

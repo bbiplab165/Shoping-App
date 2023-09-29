@@ -1,0 +1,94 @@
+.main{
+    height: 100vh;
+}
+.navigation{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.product{
+    display: flex;
+}
+.left{
+    width: 60%;
+    border-right: 1px solid rgb(205, 205, 205);
+    margin-top: 3.5%;
+    min-height: 92.6vh;
+}
+.item{
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: aqua; */
+    margin-bottom: 1% !important;
+    display: flex;
+    flex-direction: row;
+    padding: 1% !important;
+    margin-top: 4%;
+    border: 1px solid rgb(205, 205, 205);
+}
+.image{
+    width: 20%;
+    margin-right: 5%;
+    padding: 0 !important;
+    margin: auto;
+}
+.image img{
+    /* height: 15% !important; */
+    width: 100%;
+}
+.description{
+    width: 55%;
+    padding: 0 !important;
+    border-right:1px solid rgb(228, 228, 228) ;
+    padding-right :2% !important; 
+}
+.description h1,h3{
+    margin: 0;
+}
+.description h3{
+    margin-top: 2%;
+}
+.description h4{
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+.price{
+    margin-left: 5%;
+    width: 16%;
+    margin: auto;
+    
+}
+.price h3{
+    text-align: center;
+}
+.price button{
+    background: none;
+    border: none;
+    margin-top: 25%;
+    margin-left: 40%;
+}
+.noItem{
+    /* height: 50%; */
+    width: 40%;
+    padding: 20% 30%;
+}
+
+/* right section */
+
+.right{
+    width: 33%;
+    margin-top: 4% !important;
+    margin: auto;
+}
+.right button{
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 1.8%;
+    margin-top: 5%;
+}
+.rightFixed {
+    position: fixed;
+    top: 12%;
+    right: 2%;
+    width: 33%;    
+}
